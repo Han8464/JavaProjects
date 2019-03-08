@@ -15,5 +15,6 @@ public class IoCTest {
         Person person = ctx.getBean(BusinessPerson.class);
         person.service();
         ctx.close();
+        
     }
 }
