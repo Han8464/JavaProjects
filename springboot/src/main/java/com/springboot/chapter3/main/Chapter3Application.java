@@ -1,0 +1,13 @@
+package com.springboot.chapter3.main;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
+
+@SpringBootApplication
+@ComponentScan(basePackages = {"com.springboot.chapter3"})
+public class Chapter3Application {
+    public static void main(String[] args) {
+        SpringApplication.run(Chapter3Application.class, args);
+    }
+}
