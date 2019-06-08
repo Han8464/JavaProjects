@@ -2,6 +2,7 @@ package com.springboot.chapter4.aspect.controller;
 
 
 import com.springboot.chapter4.aspect.service.UserService;
+import com.springboot.chapter4.aspect.service.impl.UserServiceImpl;
 import com.springboot.chapter4.aspect.validator.UserValidator;
 import com.springboot.chapter4.pojo.User;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,7 +15,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class UserController {
 
     @Autowired
-    private UserService userService = null;
+    private UserServiceImpl userService = null;
 
     @RequestMapping("/print")
     @ResponseBody

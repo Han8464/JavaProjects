@@ -2,8 +2,8 @@ package com.springboot.chapter4;
 
 import com.springboot.chapter4.intercept.MyInterceptor;
 import com.springboot.chapter4.proxy.ProxyBean;
-import com.springboot.chapter4.service.HelloService;
-import com.springboot.chapter4.service.impl.HelloServiceImpl;
+import com.springboot.chapter4.aspect.service.HelloService;
+import com.springboot.chapter4.aspect.service.impl.HelloServiceImpl;
 
 public class AopMain {
     public static void main(String[] args) {

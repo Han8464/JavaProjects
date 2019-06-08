@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="MyRPC">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../MyRPC/out/artifacts/MyRPC_jar/MyRPC.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

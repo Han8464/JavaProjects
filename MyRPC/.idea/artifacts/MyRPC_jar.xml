@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="MyRPC:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/MyRPC_jar</output-path>
+    <root id="archive" name="MyRPC.jar">
+      <element id="module-output" name="MyRPC" />
+    </root>
+  </artifact>
+</component>
